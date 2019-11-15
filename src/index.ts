@@ -1,14 +1,6 @@
-class Main {
-    // constructor(name:string) {
-    //     this.name = name;
-    // }
+// index.ts
+let a: number = 123;
 
-    show(){
-        console.log('888')
-    }
-}
-
-
-
-let main = new Main();
-main.show();
+const h1 = document.createElement("h1");
+h1.innerHTML = "Hello, I am Lison";
+document.body.appendChild(h1);
